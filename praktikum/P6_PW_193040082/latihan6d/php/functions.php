@@ -29,7 +29,7 @@ function tambah($data)
 
 	$query = "INSERT INTO makanan
 					VALUES
-					('','$img','$nama_makanan','$asal_daerah','$ketersediaan','$harga')";
+					(null,'$img','$nama_makanan','$asal_daerah','$ketersediaan','$harga')";
 
 	mysqli_query($conn, $query);
 
